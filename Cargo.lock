@@ -23,7 +23,7 @@ version = "0.1.0"
 dependencies = [
  "dotenvy",
  "envy",
- "ezconfig-rs-derive",
+ "ezconfig-rs-derive 0.1.2",
  "serde",
  "thiserror",
 ]
@@ -31,6 +31,17 @@ dependencies = [
 [[package]]
 name = "ezconfig-rs-derive"
 version = "0.1.0"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn",
+]
+
+[[package]]
+name = "ezconfig-rs-derive"
+version = "0.1.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5c8863fd42700327a2b9907b08f0520d504c6c98cd60519db2bcbdf6b298fb1a"
 dependencies = [
  "proc-macro2",
  "quote",

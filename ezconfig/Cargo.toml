@@ -7,9 +7,10 @@ license = "MIT"
 repository = "https://github.com/Samujalphukan228/ezconfig"
 keywords = ["config", "env", "dotenv", "settings"]
 categories = ["config"]
+readme = "README.md"
 
 [dependencies]
-ezconfig-rs-derive = { version = "0.1.0", path = "../ezconfig-derive" }
+ezconfig-rs-derive = { version = "0.1.2" }
 dotenvy = "0.15"
 envy = "0.4"
 serde = { version = "1", features = ["derive"] }
