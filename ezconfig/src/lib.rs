@@ -1,7 +1,7 @@
 use serde::de::DeserializeOwned;
 use thiserror::Error;
 
-pub use ezconfig_derive::Config;
+pub use ezconfig_rs_derive::Config;
 pub use serde;
 
 #[derive(Debug, Error)]

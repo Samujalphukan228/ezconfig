@@ -18,18 +18,18 @@ dependencies = [
 ]
 
 [[package]]
-name = "ezconfig"
+name = "ezconfig-rs"
 version = "0.1.0"
 dependencies = [
  "dotenvy",
  "envy",
- "ezconfig-derive",
+ "ezconfig-rs-derive",
  "serde",
  "thiserror",
 ]
 
 [[package]]
-name = "ezconfig-derive"
+name = "ezconfig-rs-derive"
 version = "0.1.0"
 dependencies = [
  "proc-macro2",
