@@ -1,6 +1,6 @@
 [package]
 name = "ezconfig-rs"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 description = "Zero-boilerplate config loading from .env and environment variables"
 license = "MIT"
