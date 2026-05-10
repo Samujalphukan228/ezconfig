@@ -1,0 +1,16 @@
+[package]
+name = "ezconfig"
+version = "0.1.0"
+edition = "2024"
+description = "Zero-boilerplate config loading from .env and environment variables"
+license = "MIT"
+repository = "https://github.com/Samujalphukan228/ezconfig"
+keywords = ["config", "env", "dotenv", "settings"]
+categories = ["config"]
+
+[dependencies]
+ezconfig-derive = { version = "0.1.0", path = "../ezconfig-derive" }
+dotenvy = "0.15"
+envy = "0.4"
+serde = { version = "1", features = ["derive"] }
+thiserror = "1"

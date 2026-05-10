@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "ezconfig",
+    "ezconfig-derive",
+]
+resolver = "2"
