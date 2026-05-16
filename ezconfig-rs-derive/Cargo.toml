@@ -1,6 +1,6 @@
 [package]
 name = "ezconfig-rs-derive"
-version = "0.1.3"
+version = "0.1.4"
 edition = "2024"
 description = "Procedural macro for ezconfig-rs"
 license = "MIT"
