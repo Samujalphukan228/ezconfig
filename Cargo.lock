@@ -19,7 +19,7 @@ dependencies = [
 
 [[package]]
 name = "ezconfig-rs"
-version = "0.1.2"
+version = "0.1.3"
 dependencies = [
  "dotenvy",
  "envy",
@@ -41,7 +41,7 @@ dependencies = [
 
 [[package]]
 name = "ezconfig-rs-derive"
-version = "0.1.4"
+version = "0.1.5"
 dependencies = [
  "proc-macro2",
  "quote",

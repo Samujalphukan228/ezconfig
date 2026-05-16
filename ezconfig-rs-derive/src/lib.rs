@@ -8,9 +8,9 @@ pub fn derive_config(input: TokenStream) -> TokenStream {
     let name = &input.ident;
 
     let expanded = quote! {
-        impl ezconfig::Config for #name {
-            fn load() -> ::std::result::Result<Self, ezconfig::Error> {
-                ezconfig::__internal::load::<Self>()
+        impl ezconfig_rs::Config for #name {
+            fn load() -> ::std::result::Result<Self, ezconfig_rs::Error> {
+                ezconfig_rs::__internal::load::<Self>()
             }
         }
     };
