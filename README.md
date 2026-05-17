@@ -4,7 +4,7 @@
 
 ```toml
 [dependencies]
-ezconfig = "0.1"
+ezconfig-rs = "0.1.4"
 serde = { version = "1", features = ["derive"] }
 ```
 
